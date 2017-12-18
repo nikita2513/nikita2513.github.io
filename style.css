@@ -212,14 +212,14 @@ a { text-decoration: none;display: inline-block;}
   	position: relative;
  	display: block;
  	top: 70px;
- 	left:130px;
+ 	left:110px;
  	width: 237px;
  	height: 400px;
  	background-image: url(3.png);
   }
   .h_one {
   	position: relative;
-	padding-left: 130px;
+	padding-left: 110px;
 	color: #fff;
 	top: 20px;
 	font-size: 4vw;
