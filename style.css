@@ -34,8 +34,7 @@ a { text-decoration: none;display: inline-block;}
  	line-height: 75px;
  	padding: 0 15px;
  }
-.wrapper > ul > li a:hover,
- #menu-bars:hover {	
+.wrapper > ul > li a:hover{	
 	color: #272822;
 	background-color: #E9CA00;
   }
