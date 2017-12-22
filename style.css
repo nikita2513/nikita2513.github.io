@@ -113,7 +113,7 @@ a { text-decoration: none;display: inline-block;}
  }
  
 .back {
- 	background-image:url(back.jpg);
+ 	background-color:#fff;
  	position: relative;
  	top: 0;
  	left: 0;
