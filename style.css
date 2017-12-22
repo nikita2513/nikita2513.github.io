@@ -1,10 +1,12 @@
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 * {margin: 0;padding: 0;}
 .clear{ content:".";display:block;height:0;clear:both;visibility:hidden}
 * html .clear { zoom:1; }
 body, html {
  font-family: 'Roboto', sans-serif;
+ font-family: 'Open Sans Condensed', sans-serif;
 }
 i {
 font-family: fontawesome !important;
@@ -164,8 +166,8 @@ form input {
 }
 .forma {
 	position: absolute;
-	margin-top: 300px;
-	margin-left: 42%;
+	top: 1120px;
+	left: 40%;
     text-align: center;
     width: 281px;
 }
@@ -208,5 +210,8 @@ form input {
     color: #fff;
 }
 
+#on_form_text {
+  position: relative;
+  top:150px;
+}
 
-.forma1
