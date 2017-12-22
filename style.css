@@ -116,9 +116,9 @@ a { text-decoration: none;display: inline-block;}
  	top: 0;
  	left: 0;
  	width: 100%;
- 	height: 100%;
- 	background-repeat: no-repeat
- }
+ 	height: 680px;
+ 	background-repeat: no-repeat;
+  }
 
 .h_one {
 	position: absolute;
@@ -141,21 +141,7 @@ a { text-decoration: none;display: inline-block;}
 	border-left:5px solid #E18A3F;
  }
 
-form input {
-	margin:10px 0;
-	padding: 10px;
-	font-size: 30px;
-}
-.forma {
- margin-top:70px;
- margin-right: 150px;
- background-color: #333333;
- width: 400px;
- padding: 10px;
- text-align: center;
- border-radius: 10px;
- float:right;
-}
+   /*Подложка для всей страницы*/
 .wrapper_main {
 	position: relative;
  	top: 0;
@@ -163,24 +149,64 @@ form input {
  	width: 100%;
  	height: 2000px;
 }
+
+.wrapper_form {
+	background-image: url(backgroundf.jpg);
+	width: 100%;
+	height: 853px;
+	background-repeat: no-repeat;
+}
+
+
+form input {
+	margin:10px 0;
+	padding: 10px;
+}
+.forma {
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 42%;
+    text-align: center;
+    width: 281px;
+}
+
+     /*Кнопка "Заказать"*/
 .confirm {
-	font-style: italic;
-    color:#fff;
-    background-color: #E9525F;
-	border:2px solid #90333B;
-	border-radius: 30px;
+	font-family: Roboto;
+    color:#AF7C4C;
+    font-style: normal;
+    font-size: 16px;
+    padding: 15px 90px;
+    font-weight: 400;
+    background-color: transparent;
+	border:2px solid #AF7C4C;
+	border-radius: 15px;
+	outline: none;
+	width: 100%;
+	margin-left: 10px;
 }
 .confirm:hover {
-    background-color: #E96772;
+    background-color:#AF7C4C;
     color:#fff;
-    border:2px solid #A54951;
-    transform: 0.5s;
-    cursor: pointer;
-     transition: 0.3s;
+     transform: 0.5s;
+    cursor: pointer;   
  }
+      /*Поля ввода*/
 .border_yel {
-	border:#fff dashed 1px;
-    border-radius:5px;
-	box-shadow: 1px 1px 10px 1px #E9CA00;
+	background-color:transparent; /*Прозрачность*/
+	border:#fff solid 1px; /*Граница белого цвета*/
+    border-radius:15px; /*Радиус глов границы*/
 	outline: none;
+	font-size: 16px;
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-border-radius:15px;
+	color: #fff;
 }
+.border_yel::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+}
+
+
+.forma1
