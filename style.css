@@ -114,14 +114,15 @@ a { text-decoration: none;display: inline-block;}
 .cpho{
 	position: absolute;
 	top: 120px;
-	left: 450px;
+	margin-left: 400px;
 	display: block;
 }
 
 #ulch {
  position: relative;
  top: 140px;
- left: 850px;
+ margin-left:750px;
+ width: 300px;
  line-height: 30px;
  list-style: none;
 }
