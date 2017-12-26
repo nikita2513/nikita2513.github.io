@@ -89,7 +89,7 @@ a { text-decoration: none;display: inline-block;}
 	text-align: center;
 	position: relative;
 	color: #fff;
-	top:390px;
+	top:430px;
 	left: 1005px;
 	width: 200px; 
 	height: 35px;
@@ -102,6 +102,7 @@ a { text-decoration: none;display: inline-block;}
     box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
 }
+.button:hover {background-color: #5BCEEB;}
 .character {
 	position: absolute;
 	background-color: transparent;
@@ -111,6 +112,7 @@ a { text-decoration: none;display: inline-block;}
 	font-family: roboto;
 	font-size: 20px;
 }
+.taimer {position: relative;top: 550px;left:840px;width: 500px;margin-right:100px;}
 .cpho{
 	position: absolute;
 	top: 120px;
@@ -121,9 +123,9 @@ a { text-decoration: none;display: inline-block;}
 #ulch {
  position: relative;
  top: 140px;
- margin-left:750px;
+ left:750px;
  width: 550px;
- line-height: 30px;
+ line-height: 45px;
  list-style: none;
 }
 #ulch > li:before {
@@ -202,27 +204,7 @@ a { text-decoration: none;display: inline-block;}
  	background-repeat: no-repeat;
   }
 
-.h_one {
-	position: absolute;
-	left: 0;
-	padding-left: 40px;	
-	color: #fff;
-	top: 200px;
-	font-size: 60px;
-    font-style: italic;
-}
 
- .discription {
-  	position: relative;
-  	font-family: Roboto;
- 	color: black;
-	font-size: 45px;
-	color: #fff;
-	background-color:#CF4B32;
-	padding: 7px;
-	margin-top: 10px;
-	border-left: 10px solid #A13B27;
- }
 
 .img {
 	position: absolute;
